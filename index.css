@@ -1,0 +1,41 @@
+:root {
+  --background: #4d4646;
+  --colorAccent: #7fcd91;
+  --lighterBackground: #5b5656;
+  --lighterColor: #f5eaea;
+}
+
+body {
+  /* background-color: var(--background); */
+}
+
+.banner{
+  height: 500px;
+  background-color: var(--colorAccent);
+  background-image:         linear-gradient(
+          rgba(0, 0, 0, 0.3),
+          rgba(0, 0, 0, 0.8)
+        ),url("res/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: center; */
+  color: white;
+  padding-top: 60px;
+  margin-bottom:20px;
+}
+
+
+.contacto{
+  height:50px;
+  margin-bottom: 10px;
+  font-size: 40px;
+}
+
+.contacto a{
+  color: white;
+}
+
+.contacto a:hover{
+  color: var(--colorAccent);
+  text-decoration: none;
+}
