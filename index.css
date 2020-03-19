@@ -10,7 +10,7 @@ body {
 }
 
 .banner{
-  height: 500px;
+  height: 100vh;
   background-color: var(--colorAccent);
   background-image:         linear-gradient(
           rgba(0, 0, 0, 0.3),
@@ -38,4 +38,12 @@ body {
 .contacto a:hover{
   color: var(--colorAccent);
   text-decoration: none;
+}
+
+.dimmer {
+  background-color: rgba(0,0,0,0.5);
+}
+
+.top-nav-collapse{
+  background-color: rgba(0,0,0,0.8) !important;
 }
