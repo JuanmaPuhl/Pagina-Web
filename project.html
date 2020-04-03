@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- <script src="https://kit.fontawesome.com/7171b6c2c5.js" crossorigin="anonymous"></script> -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.14.1/css/mdb.min.css" rel="stylesheet">
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.14.1/js/mdb.min.js"></script>
+    <link rel="stylesheet" href="css/project.css">
+
+
+    <title>Inicio</title>
+  </head>
+
+
+  <body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark dimmer scrolling-navbar fixed-top">
+      <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Mis Proyectos</a>
+            </li>
+            <li class="nav-item mr-4">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </nav>
+    <!-- BANNER  -->
+
+    <div class="container-fluid banner d-flex flex-column justify-content-center align-items-center" style="
+              background-image:         linear-gradient(
+              rgba(0, 0, 0, 0.5),
+              rgba(0, 0, 0, 0.8)
+            ),url('../res/gameEngine.png')">
+      <div class="text-center">
+        <h1 class="display-3">GameEngine 2d/3d con openGL</h1>
+      </div>
+    </div>
+
+    <!-- Fin Banner -->
+
+    <!-- Proyectos -->
+    <div class="container mb-100">
+      <h2>Introducción</h2>
+      <hr>
+      <p>Actualmente la industria de los videojuegos es una de las mas grandes del mundo
+          y los costos para crear un solo videojuego es demasiado alto, debido a la cantidad de
+          profesionales y tiempo que se necesita. Es por esto que es necesario disminuir estos costos,
+          y la forma es creando engines o motores que den las herramientas necesarias para crear un videojuego.
+          Esa es la motivacion para este proyecto, crear un motor que sea tanto 2d como 3d, y
+          ayude en la creación de videojuegos.
+      </p>
+      <br>
+      <h2>Detalles técnicos</h2>
+      <hr>
+      <p>Se utilizó <a href="https://www.opengl.org/">OpenGL</a> y C++. Además, se usaron varias librerias extra, para manejar la creacion de la ventana,
+      el texto en pantalla, y cargar imagenes con el objetivo de no incrementar la complejidad de manera innecesaria.</p>
+      <br>
+      <h2>Funciones implementadas</h2>
+      <hr>
+      <p>Actualmente se está programando la parte 2D, teniendo ya implementada la cámara ortográfica con zoom y desplazamiento, la creacion de distintos objetos
+        asi como su posterior edición, la carga
+      de imagenes a modo de textura (con la posibilidad de establecer un color solido para el objeto si asi se lo desea), la creacion y edicion de
+      niveles y finalmente algunas herramientas de utilidad.</p>
+      <br>
+      <h2>Próximamente</h2>
+      <hr>
+      <ul>
+        <li>
+          <p>Adaptar las funciones ya implementadas a 3d.</p>
+        </li>
+        <li>
+          <p>Crear una interfaz gráfica.</p>
+        </li>
+        <li>
+          <p>Movimiento para objetos.</p>
+        </li>
+        <li>
+          <p>Físicas para objetos.</p>
+        </li>
+        <li>
+          <p>Y mucho más...</p>
+        </li>
+      </ul>
+      <br>
+      <p>Pueden encontrar el código fuente <a href="https://github.com/JuanmaPuhl/C-OpenGLGame">aquí</a>.</p>
+    </div>
+
+    <footer class=" container-fluid bg-dark text-white text-center  py-2 ">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </footer>
+
+  </body>
+</html>
