@@ -19,6 +19,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  overflow: hidden;
   color: white;
   padding-top: 60px;
   margin-bottom:20px;
@@ -37,7 +38,6 @@ body {
 
 .contacto a:hover{
   color: var(--colorAccent);
-  text-decoration: none;
 }
 
 .dimmer {
@@ -93,7 +93,7 @@ body {
   font-size: 18px;
   font-weight: 700;
   text-transform:uppercase;
-  margin: 20px 0;
+  margin: 30px 0;
 }
 
 .skill-bar{
@@ -119,20 +119,37 @@ body {
   color: #fff;
   font-size: 12px;
   border-radius: 4px;
-  top: -35px;
+  top: -31px;
   right:0;
   transform: translateX(50%);
 }
+
 .skill-per::after{
   content: '';
   position: absolute;
   width: 10px;
   height: 10px;
-  right:0;
-  top:-16px;
   background-color: #000;
-  border-radius: 2px;
-
-
+  top: -12px;
+  right: 0;
   transform: translateX(50%) rotate(45deg);
+  border-radius: 2px;
 }
+
+.lenguajes{
+
+}
+
+ #topBtn{
+   position: fixed;
+   bottom: 40px;
+   right: 40px;
+   font-size: 22px;
+   width: 50px;
+   height: 50px;
+   background: var(--colorAccent);
+   color: white;
+   border: none;
+   cursor: pointer;
+   display: none;
+ }
