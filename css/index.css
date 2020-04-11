@@ -1,6 +1,6 @@
 :root {
   --background: #4d4646;
-  --colorAccent: #7fcd91;
+  --colorAccent: #6351ce;
   --lighterBackground: #5b5656;
   --lighterColor: #f5eaea;
 }
@@ -152,4 +152,14 @@ body {
    border: none;
    cursor: pointer;
    display: none;
+ }
+
+ .btn{
+   background: var(--colorAccent) !important;
+   font-weight: 600;
+ }
+
+ label{
+   font-size: 16px;
+   font-weight: 700;
  }
